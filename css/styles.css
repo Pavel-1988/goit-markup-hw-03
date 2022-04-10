@@ -4,7 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -14,20 +13,10 @@ body {
   text-decoration: none;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin: 24px 93px 25px 215px;
-
-
 }
 
 .logo-word {
   color: #2196f3;
-
-}
-
-.nav-list{
-  display: flex;
-  flex-direction: row;
-  margin: 32px 0px 32px 0px;
 }
 
 .nav-link {
@@ -37,27 +26,7 @@ body {
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-right: 50px;
-  display: block;
-
-  }
-
-li.nav-link:last-child{
-  padding-right: 0;
 }
-
-
-.container-header{
-  display: flex;
-  flex-direction: row;
-}
-
-.container-nav{
-  display: flex;
-  flex-direction: row;
-}
-
-
 
 .nav-link:hover,
 .nav-link:focus {
@@ -71,17 +40,7 @@ li.nav-link:last-child{
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-right: 50px;
-
-
-  }
-
-  .mail-tel-list{
-    display: flex;
-    flex-direction: row;
-    margin: 32px 15px 32px 331px;
-  }
-  
+}
 
 .mail-tel-link:hover,
 .mail-tel-link:focus {
@@ -92,8 +51,6 @@ li.nav-link:last-child{
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
-  display: block;
-
 }
 
 .design-title {
@@ -106,9 +63,6 @@ li.nav-link:last-child{
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
-
-  
-
 }
 
 .button-name {
@@ -151,10 +105,9 @@ li.nav-link:last-child{
 
 ul {
   list-style-type: none;
-  padding: 0px;
 }
 
-.work-foto-item {
+.work-team-item {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -214,6 +167,7 @@ address {
   letter-spacing: 0.03em;
 }
 
+
 .list-button-name {
   font-family: Roboto;
   color: #212121;
@@ -248,9 +202,4 @@ address {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-
-
-.container{
-  width: 1200px;
 }
