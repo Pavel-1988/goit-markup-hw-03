@@ -11,6 +11,16 @@ body {
   
 }
 
+.container-hdr {
+  width: 1200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
 .container-nav {
   display: flex;
   flex-direction: row;
@@ -18,7 +28,10 @@ body {
 
 .container-link{
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .logo {
@@ -30,6 +43,7 @@ body {
   text-decoration: none;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin: 24px 93px 0px 0px;
 }
 
 .logo-word {
@@ -43,7 +57,11 @@ body {
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-right: 50px;
+  
 }
+
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -57,7 +75,9 @@ body {
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-right: 50px;
 }
+
 
 .mail-tel-link:hover,
 .mail-tel-link:focus {
@@ -68,6 +88,7 @@ body {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
+  text-align: center;
 }
 
 .design-title {
@@ -77,9 +98,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
+  align-items: center;
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
+ 
+  
 }
 
 .button-name {
@@ -100,6 +124,21 @@ body {
 .button-name:focus {
   color: #ffffff;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
 
 .work-title {
   width: 270px;
@@ -122,6 +161,10 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
 }
 
 .work-team-item {
