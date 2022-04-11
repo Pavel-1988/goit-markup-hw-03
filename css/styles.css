@@ -4,6 +4,23 @@ body {
   background-color: #ffffff;
 }
 
+.container{
+  width: 1200px;
+  margin-left: 200px;
+  margin-right: 200px ;
+  
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-link{
+  display: flex;
+  flex-direction: row
+}
+
 .logo {
   font-family: 'Raleway';
   font-style: normal;
