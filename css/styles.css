@@ -6,19 +6,19 @@ body {
 
 .container{
   width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px ;
+  margin-left: 215px;
+  margin-right: 215px ;
   
 }
 
 .container-hdr {
   width: 1200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 215px;
+  margin-right: 215px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  margin-bottom: 25px
 }
 
 .container-nav {
@@ -78,7 +78,6 @@ body {
   padding-right: 50px;
 }
 
-
 .mail-tel-link:hover,
 .mail-tel-link:focus {
   color: #2196f3;
@@ -88,7 +87,9 @@ body {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
+  padding: 200px 452px 280px 452px;
   text-align: center;
+  
 }
 
 .design-title {
@@ -97,8 +98,7 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
-  align-items: center;
+  
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -117,8 +117,9 @@ body {
   cursor: pointer;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  align-items: center;
-  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+ 
 }
 
 .button-name:focus {
@@ -138,7 +139,12 @@ body {
   overflow: hidden;
 }
 
-
+.work-flex{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
 
 .work-title {
   width: 270px;
@@ -166,14 +172,9 @@ body {
 
 }
 
-
-
 ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
-  padding: 0px;
+
 }
 
 .work-team-item {
@@ -192,8 +193,8 @@ ul {
 
 .container-our-team{
   width: 1600px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 215px;
+  padding-right: 215px;
   padding-bottom: 94px;
   margin-top: 94px;
   background-color: #F5F4FA;
@@ -242,17 +243,28 @@ ul {
 
 .container-ftr {
   width: 1600px;
+  height: 252px;
   background-color: #2f303a;
+  padding-left: 215px;
+  padding-top: 60px;
 
  
 }
 
 .logo-word-ftr {
   color: #ffffff;
+  
+  
 }
 
 address {
   font-style: normal;
+  
+}
+.address-item{
+  padding-left: 0px;
+  margin-top: 20px;
+
 }
 
 .address-link {
