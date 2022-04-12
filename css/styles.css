@@ -12,13 +12,17 @@ body {
 }
 
 .container-hdr {
-  width: 1200px;
-  margin-left: 215px;
-  margin-right: 215px;
+  width: 1600px;
+ margin-right: 0px;
+ margin-left: 0px;
+ padding-left: 215px;
+ padding-right: 215px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 25px
+  height: 80px;
+  border-bottom: 1px solid #ECECEC;
+  
 }
 
 .container-nav {
@@ -247,24 +251,20 @@ ul {
   background-color: #2f303a;
   padding-left: 215px;
   padding-top: 60px;
-
  
 }
 
 .logo-word-ftr {
   color: #ffffff;
-  
-  
 }
 
 address {
   font-style: normal;
-  
 }
+
 .address-item{
   padding-left: 0px;
   margin-top: 20px;
-
 }
 
 .address-link {
@@ -289,6 +289,19 @@ address {
   letter-spacing: 0.03em;
 }
 
+.container-button{
+  width: 1600px;
+ 
+
+}
+.button-flex{
+  display: flex;
+  flex-direction: row;
+  padding-top: 94px;
+  padding-left: 495px;
+  margin: 0px;
+}
+
 
 .list-button-name {
   font-family: Roboto;
@@ -299,6 +312,10 @@ address {
   cursor: pointer;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  margin-right: 8px;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+
 }
 
 .list-button-name:hover {
@@ -310,12 +327,35 @@ address {
   color: #2196f3;
 }
 
+.projects-item{
+  border: 1px solid #EEEEEE;
+  margin-right: 30px;
+  margin-bottom: 30px
+}
+
+.projects-item:nth-child(3n){
+  margin-right: 0px;
+}
+
+
+.container-projects{
+  width: 1200px;
+  margin-left: 215px;
+  margin-top: 34px;
+}
+
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
 .projects-name {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 20px 0px 0px 24px;
 }
 
 .projects-type {
@@ -324,4 +364,6 @@ address {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin: 4px 0px 20px 24px;
 }
+
