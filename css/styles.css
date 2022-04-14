@@ -16,6 +16,8 @@ body {
   padding-right: 15px;
   
 }
+
+
 ul{
   margin: 0;
   padding: 0;
@@ -26,6 +28,7 @@ ul{
   display: flex;
   align-items: center;
   padding-bottom: 25px;
+
  
 }
 
@@ -74,6 +77,10 @@ ul{
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
+}
+
+.nav-link:last-child {
+  margin-right: 0px;
 }
 
 
@@ -289,17 +296,15 @@ address {
   letter-spacing: 0.03em;
 }
 
-.container-button{
-
- 
-
+.section-hdr{
+border-bottom: 1px solid #ECECEC;
 }
+
+
 .button-flex{
   display: flex;
-  flex-direction: row;
-  padding-top: 94px;
-  padding-left: 495px;
-  margin: 0px;
+  justify-content: center;
+
 }
 
 
@@ -327,6 +332,12 @@ address {
   color: #2196f3;
 }
 
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
 .projects-item{
   border: 1px solid #EEEEEE;
   margin-right: 30px;
@@ -337,19 +348,6 @@ address {
   margin-right: 0px;
 }
 
-
-.container-projects{
-
-  margin-left: 215px;
-  margin-top: 34px;
-  margin-bottom: 94px;
-}
-
-.projects-flex {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-}
 .projects-name {
   color: #212121;
   font-weight: 700;
