@@ -156,6 +156,10 @@ ul{
   color: #ffffff;
 }
 
+.features-section{
+  padding-top: 94px;
+  padding-bottom: 0px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -244,6 +248,11 @@ ul{
 
 }
 
+.container-team-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .work-team-name {
   color: #212121;
   font-weight: 500;
@@ -251,7 +260,7 @@ ul{
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 30px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 .work-position {
@@ -261,7 +270,7 @@ ul{
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 .section-ftr {
@@ -290,6 +299,8 @@ address {
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
+  display: block;
 }
 
 .address-link:hover {
@@ -303,19 +314,31 @@ address {
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
+  display: block;
+}
+
+.mail-tel-ftr:last-child{
+  margin-bottom: 0px;
 }
 
 .section-hdr{
 border-bottom: 1px solid #ECECEC;
 }
 
+.container-btn{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .button-flex{
   display: flex;
   justify-content: center;
 
 }
-
 
 .list-button-name {
   font-family: Roboto;
@@ -347,14 +370,17 @@ border-bottom: 1px solid #ECECEC;
   padding: 0px;
 }
 
-.projects-item{
-  border: 1px solid #EEEEEE;
-  margin-right: 30px;
-  margin-bottom: 30px
+.projects-items{
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
-.projects-item:nth-child(3n){
-  margin-right: 0px;
+.projects-items:nth-child(3n){
+  padding-right: 0px;
+}
+
+.projects-border{
+  border: 1px solid #EEEEEE;
 }
 
 .projects-name {
