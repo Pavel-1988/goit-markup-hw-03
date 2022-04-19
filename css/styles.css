@@ -337,7 +337,13 @@ border-bottom: 1px solid #ECECEC;
 .button-flex{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 
+
+}
+
+.button-flex li{
+margin-right: 8px;
 }
 
 .list-button-name {
@@ -349,7 +355,6 @@ border-bottom: 1px solid #ECECEC;
   cursor: pointer;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  margin-right: 8px;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 
@@ -367,19 +372,22 @@ border-bottom: 1px solid #ECECEC;
 .projects-flex {
   display: flex;
   flex-wrap: wrap;
-  padding: 0px;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+
+.projects-border{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+img{
+  display: block;
 }
 
 .projects-items{
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
-.projects-items:nth-child(3n){
-  padding-right: 0px;
-}
-
-.projects-border{
+  padding: 20px 24px ;
   border: 1px solid #EEEEEE;
 }
 
@@ -389,7 +397,6 @@ border-bottom: 1px solid #ECECEC;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 0px 0px 24px;
 }
 
 .projects-type {
@@ -398,6 +405,10 @@ border-bottom: 1px solid #ECECEC;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin: 4px 0px 20px 24px;
+
 }
 
+h1,h2,h3,p{
+  margin: 0;
+}
+ 
